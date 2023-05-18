@@ -82,8 +82,13 @@
     line-height: 35px;
 }
 .content button {
-    width: 100px;
+    width: 120px;
+    height: 35px;
+    color: rgb(223, 15, 15);
+    background-color: white;
+    border-radius: 20px;
     align-self: center;
+    cursor: pointer;
 
 }
 
@@ -103,6 +108,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    box-shadow: 5px 5px 5px lightgray;
 }
 
 .form_title {
